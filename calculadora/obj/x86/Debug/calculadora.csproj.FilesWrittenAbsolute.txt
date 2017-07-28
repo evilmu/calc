@@ -1,0 +1,6 @@
+/home/marcos/Área de Trabalho/Exemplos/calculadora/calculadora/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/marcos/Área de Trabalho/Exemplos/calculadora/calculadora/obj/x86/Debug/calculadora.gtk-gui.gui.stetic
+/home/marcos/Área de Trabalho/Exemplos/calculadora/calculadora/bin/Debug/calculadora.exe.mdb
+/home/marcos/Área de Trabalho/Exemplos/calculadora/calculadora/bin/Debug/calculadora.exe
+/home/marcos/Área de Trabalho/Exemplos/calculadora/calculadora/obj/x86/Debug/calculadora.exe
+/home/marcos/Área de Trabalho/Exemplos/calculadora/calculadora/obj/x86/Debug/calculadora.exe.mdb

@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+    <target-gtk-version>2.12</target-gtk-version>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Debug/calculadora.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="337 270">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">Calculadora</property>
+    <property name="WindowPosition">Center</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Button" id="btn1">
+            <property name="MemberName" />
+            <property name="WidthRequest">40</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">1</property>
+            <signal name="Clicked" handler="btnNumerador_Click" />
+          </widget>
+          <packing>
+            <property name="X">55</property>
+            <property name="Y">63</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn7">
+            <property name="MemberName" />
+            <property name="WidthRequest">40</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">7</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="btnNumerador_Click" />
+          </widget>
+          <packing>
+            <property name="X">54</property>
+            <property name="Y">137</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn8">
+            <property name="MemberName" />
+            <property name="WidthRequest">40</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">8</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="btnNumerador_Click" />
+          </widget>
+          <packing>
+            <property name="X">100</property>
+            <property name="Y">137</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn9">
+            <property name="MemberName" />
+            <property name="WidthRequest">40</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">9</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="btnNumerador_Click" />
+          </widget>
+          <packing>
+            <property name="X">146</property>
+            <property name="Y">137</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn3">
+            <property name="MemberName" />
+            <property name="WidthRequest">40</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">3</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="btnNumerador_Click" />
+          </widget>
+          <packing>
+            <property name="X">148</property>
+            <property name="Y">64</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn2">
+            <property name="MemberName" />
+            <property name="WidthRequest">40</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">2</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="btnNumerador_Click" />
+          </widget>
+          <packing>
+            <property name="X">100</property>
+            <property name="Y">63</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn4">
+            <property name="MemberName" />
+            <property name="WidthRequest">40</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">4</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="btnNumerador_Click" />
+          </widget>
+          <packing>
+            <property name="X">54</property>
+            <property name="Y">100</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn5">
+            <property name="MemberName" />
+            <property name="WidthRequest">40</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">5</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="btnNumerador_Click" />
+          </widget>
+          <packing>
+            <property name="X">100</property>
+            <property name="Y">100</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn6">
+            <property name="MemberName" />
+            <property name="WidthRequest">40</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">6</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="btnNumerador_Click" />
+          </widget>
+          <packing>
+            <property name="X">147</property>
+            <property name="Y">98</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn_subtracao">
+            <property name="MemberName" />
+            <property name="WidthRequest">40</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">-</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnBtnSubtracaoClicked" />
+          </widget>
+          <packing>
+            <property name="X">191</property>
+            <property name="Y">99</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="tbn_multiplicacao">
+            <property name="MemberName" />
+            <property name="WidthRequest">40</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">*</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnTbnMultiplicacaoClicked" />
+          </widget>
+          <packing>
+            <property name="X">191</property>
+            <property name="Y">137</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn_igual">
+            <property name="MemberName" />
+            <property name="WidthRequest">87</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">=</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnBtnIgualClicked" />
+          </widget>
+          <packing>
+            <property name="X">191</property>
+            <property name="Y">171</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn_virgula">
+            <property name="MemberName" />
+            <property name="WidthRequest">40</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">,</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="btnNumerador_Click" />
+          </widget>
+          <packing>
+            <property name="X">147</property>
+            <property name="Y">170</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn">
+            <property name="MemberName" />
+            <property name="WidthRequest">87</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">0</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="btnNumerador_Click" />
+          </widget>
+          <packing>
+            <property name="X">53</property>
+            <property name="Y">170</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn_divisao">
+            <property name="MemberName" />
+            <property name="WidthRequest">40</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">/</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnBtnDivisaoClicked" />
+          </widget>
+          <packing>
+            <property name="X">238</property>
+            <property name="Y">137</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn_adicao">
+            <property name="MemberName" />
+            <property name="WidthRequest">40</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">+</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnBtnAdicaoClicked" />
+          </widget>
+          <packing>
+            <property name="X">239</property>
+            <property name="Y">99</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btn_limpar">
+            <property name="MemberName" />
+            <property name="WidthRequest">87</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">C</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="OnBtnLimparClicked" />
+          </widget>
+          <packing>
+            <property name="X">192</property>
+            <property name="Y">64</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label1">
+            <property name="MemberName" />
+            <property name="LabelProp" translatable="yes">MarcoScofield ®</property>
+          </widget>
+          <packing>
+            <property name="X">116</property>
+            <property name="Y">236</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Entry" id="txt_valor">
+            <property name="MemberName" />
+            <property name="WidthRequest">223</property>
+            <property name="HeightRequest">30</property>
+            <property name="CanFocus">True</property>
+            <property name="IsEditable">True</property>
+            <property name="MaxLength">20</property>
+            <property name="InvisibleChar">●</property>
+          </widget>
+          <packing>
+            <property name="X">55</property>
+            <property name="Y">29</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Label" id="label2">
+            <property name="MemberName" />
+          </widget>
+          <packing>
+            <property name="X">57</property>
+            <property name="Y">8</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
